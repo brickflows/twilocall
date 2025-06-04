@@ -1,0 +1,24 @@
+# Core FastAPI and server dependencies
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+httpx==0.27.0
+mangum==0.17.0
+
+# AI and ML dependencies
+openai==1.51.0
+pinecone>=5.0.0
+
+# Twilio integration (NEW)
+twilio==9.0.4
+
+# Additional HTTP client for testing
+aiohttp==3.9.0
+
+# Optional: for enhanced JSON handling
+orjson==3.9.10
+
+# Optional: for better async performance
+asyncio-throttle==1.0.2
